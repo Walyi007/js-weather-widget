@@ -1,33 +1,33 @@
-# JavaScript Weather Widget
+# Widget Météo JavaScript
 
-A simple vanilla JavaScript widget that displays the current weather for a given city using the OpenWeatherMap API.
+Un petit widget vanilla JavaScript qui affiche la météo actuelle d’une ville donnée grâce à l’API OpenWeatherMap.
 
-## Features
+## Fonctionnalités
 
-- Fetch weather data from OpenWeatherMap API
-- Display temperature, description, and icon
-- Handle errors gracefully
-- Responsive design
+- Récupère les données météo via l’API OpenWeatherMap  
+- Affiche la température, la description et l’icône  
+- Gère les erreurs avec élégance  
+- Design responsive  
 
-## Setup
+## Installation
 
-1. Get an API key from [OpenWeatherMap](https://openweathermap.org/api)
-2. Replace `YOUR_API_KEY` in `script.js` with your actual key
-3. Open `index.html` in a browser or serve with a static server
+1. Obtenez une clé API sur [OpenWeatherMap](https://openweathermap.org/api)  
+2. Remplacez `VOTRE_CLÉ_API` dans `script.js` par votre clé réelle  
+3. Ouvrez `index.html` dans un navigateur ou servez‑le avec un serveur statique  
 
-## Usage
+## Utilisation
 
 ```html
 <div id="weather-widget"></div>
 <script src="script.js"></script>
 ```
 
-The widget will automatically render into the element with id `weather-widget`.
+Le widget s’affichera automatiquement dans l’élément portant l’id `weather-widget`.
 
-## Customization
+## Personnalisation
 
-You can change the default city by modifying the `city` variable in `script.js`.
+Vous pouvez changer la ville par défaut en modifiant la variable `city` dans `script.js`.
 
-## License
+## Licence
 
 MIT
