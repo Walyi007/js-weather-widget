@@ -2,7 +2,7 @@
  * Widget Météo Simple
  * Remplacez VOTRE_CLÉ_API par votre vraie clé OpenWeatherMap
  */
-const API_KEY = 'VOTRE_CLÉ_API'; // <-- Obtenez-en une sur https://openweathermap.org/api
+const API_KEY = 'ffd99e6211711d3fab10eb07123a19b2'; // <-- Obtenez-en une sur https://openweathermap.org/api
 const VILLE = 'Cotonou';        // Ville par défaut
 const UNITES = 'metric';        // Utilisez 'metric' pour Celsius, 'imperial' pour Fahrenheit
 const LANGUE = 'fr';            // Langue de la description
